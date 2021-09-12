@@ -33,6 +33,7 @@ let page;
     await page.waitFor(3000);
     let QuestionArr = await page.$$("[class='ui-btn ui-btn-normal primary-cta ui-btn-line-primary ui-btn-styled']",{delay: 100});
     await QuestionSolver(page, QuestionArr[0], AnswerObj.answers);
+    
     console.log("Question has been Solved");
 
 })();
