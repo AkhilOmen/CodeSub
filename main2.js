@@ -1,4 +1,5 @@
 // URL of HackerRank Login "https://www.hackerrank.com/auth/login"
+// Enter you Email and password in EmailPassobj
 
 let puppeteer = require("puppeteer");
 let EmialPassobj = require("./emailpass");
